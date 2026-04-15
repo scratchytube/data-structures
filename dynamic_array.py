@@ -40,7 +40,7 @@ class DynamicArray:
     def get(self, i: int) -> int:
         return self.arr[i]
 
-    # Set n at i-th index
+    # Set n at i-th index changes?
     def set(self, i: int, n: int) -> None:
         self.arr[i] = n
 
